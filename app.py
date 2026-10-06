@@ -180,6 +180,28 @@ def play_game():
 # -----------------------------
 # Run the Game
 # -----------------------------
+def main():
+
+    while True:
+
+        reset_board()
+        play_game()
+
+        while True:
+            choice = input("\nDo you want to play again? (y/n): ").lower()
+
+            if choice in ["y", "n"]:
+                break
+
+            print("Please enter y or n.")
+
+        if choice == "n":
+            print("\nThanks for playing!")
+            break
+
+def reset_board():
+    global board
+    board = [" " for _ in range(9)]
 
 if __name__ == "__main__":
-    play_game()
+    main()

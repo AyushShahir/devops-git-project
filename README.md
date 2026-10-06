@@ -26,7 +26,7 @@ This project demonstrates Git and GitHub version control practices.
 - Python
 - macOS Terminal
 
-### Tic-Tac-Toe app.py
+# Tic-Tac-Toe app.py
 
 ## Overview
 
