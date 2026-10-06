@@ -1,66 +1,82 @@
-# DevOps Git Project
+# 🎮 DevOps Git Project - Tic-Tac-Toe
 
-This project demonstrates Git and GitHub version control practices.
+## 🌟 Overview
 
-## Objectives
+This project is a command-line **Tic-Tac-Toe** game developed in Python.
 
-- Learn Git basics
-- Create and manage branches
-- Use feature branches
-- Create pull requests
-- Merge branches
-- Use .gitignore
-- Create Git tags
-- Document the Git workflow
+It was created as part of a DevOps internship task to demonstrate **Git** and **GitHub** version control practices. 🚀
 
-## Branches
+## ✨ Features
 
-- main - stable version
-- dev - development branch
-- feature - feature development
+- 👤 vs 🤖 Human vs AI gameplay
+- 🏆 Winner detection
+- 🤝 Draw detection
+- 🧠 AI decision-making
+- 🚫 Invalid input handling
+- 🔄 Replay option
+- 📦 Git and GitHub version control
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- Git
-- GitHub
-- Python
-- macOS Terminal
+- 🐍 Python
+- 🔀 Git
+- 🐙 GitHub
 
-# Tic-Tac-Toe app.py
-
-## Overview
-
-This project is a command-line Tic-Tac-Toe game developed in Python.
-The project is used to demonstrate Git and GitHub version control and DevOps workflow practices.
-
-## Features
-
-- Human vs AI gameplay
-- Winner detection
-- Draw detection
-- AI move selection
-- Invalid input handling
-- Git-based version control
-
-## Git Branching Strategy
+## 🌿 Git Branching Strategy
 
 The project uses the following branches:
 
-- `main` - stable version of the project
-- `dev` - development branch
-- `feature/replay-option` - feature development branch
+- `main` 🟢 - Stable version of the project
+- `dev` 🟡 - Development and testing branch
+- `feature/replay-option` 🔵 - Feature development branch
 
-## Git Workflow
+## 🔄 Git Workflow
 
-The workflow followed in this project is:
+The following workflow was used:
 
 ```text
-Feature Branch
-      ↓
-Pull Request
-      ↓
-dev
-      ↓
-Pull Request
-      ↓
-main
+feature/replay-option
+          |
+          | Pull Request #1
+          v
+         dev
+          |
+          | Pull Request #2
+          v
+         main
+          |
+          v
+       v1.0.0
+```
+
+### 🎯 Git Features Demonstrated
+
+- 🏗️ Git repository initialization
+- 📝 Git commits
+- 🌿 Branching
+- ✨ Feature branches
+- 📥 Pull Requests
+- 🔀 Branch merging
+- ⚔️ Merge conflict resolution
+- 🗃️ Git stash
+- 🏷️ Git tags
+- 🙈 `.gitignore`
+- 📖 Markdown documentation
+
+## 📂 Project Structure
+
+```text
+devops-git-project/
+│
+├── app.py
+├── README.md
+├── .gitignore
+│
+└── docs/
+    └── git-workflow.md
+```
+
+## 🏷️ Version
+
+**Stable version:**
+`v1.0.0`
