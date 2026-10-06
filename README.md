@@ -80,3 +80,6 @@ devops-git-project/
 
 **Stable version:**
 `v1.0.0`
+
+## SCREENSHOTS
+<img width="893" height="369" alt="Screenshot 2026-10-07 at 12 55 03 AM" src="https://github.com/user-attachments/assets/d0d9da62-3640-4925-b6da-fb8b06274542" />
